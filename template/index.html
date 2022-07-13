@@ -31,21 +31,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
+                        <a class="nav-link" href="#welcome">Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link scrollto active" href="#about-our services"
                 >About <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#download"
                 >Servies<span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#important_link"
                 >Contact Us<span class="sr-only">(current)</span></a
               >
             </li>
@@ -59,7 +59,7 @@
     <!-- header section -->
 
     <header class="header">
-      <div class="container h-100">
+      <div class="container h-100" id="welcome">
         <div class="row h-100 align-items-center">
           <div class="col-md-12 text-center">
             <!-- <img src="images/img1.webp" alt="desktop image"> -->
@@ -99,8 +99,8 @@
 
     <!-- start of services section -->
 
-    <section class="services">
-      <div class="container text-center py-5">
+    <section class="services about_section" id="about-our services">
+      <div class="container text-center py-5 ">
         <h1>About Our Servies</h1>
         <div class="row">
           <div class="col-md-4">
@@ -122,17 +122,14 @@
           </div>
           <div class="col-md-4">
             <!-- second col -->
-            <div class="card">
+            <div class="card" id="notification">
               <div class="card-body">
                 <i class="fa fa-bell-o fa-3x myicon"></i>
-                <h1>Best Explanation</h1>
+                <h1>Notification</h1>
                 <p>
-                  Bootstrap is a free and open-source tool collection for
-                  creating responsive websites and web applications. It is the
-                  most popular HTML, CSS, and JavaScript framework for
-                  developing responsive, mobile-first websites. It solves many
-                  problems which we had once, one of which is the cross-browser
-                  compatibility issue.
+                  A notification is simply information that is sent to a human agent when a step in the process executes. Notifications manifest themselves as alerts in a user's inbox or as emails.
+
+                  The agents to which the notification must be sent are determined by the allocation strategy (see Notification Allocation Strategy) specified for the notification. The details that are displayed to the user in the alert or email.
                 </p>
               </div>
             </div>
@@ -143,14 +140,11 @@
               <div class="card-body">
                 <i class="fa fa-braille fa-3x myicon"></i>
 
-                <h1>Best Explanation</h1>
+                <h1>About</h1>
                 <p>
-                  Bootstrap is a free and open-source tool collection for
-                  creating responsive websites and web applications. It is the
-                  most popular HTML, CSS, and JavaScript framework for
-                  developing responsive, mobile-first websites. It solves many
-                  problems which we had once, one of which is the cross-browser
-                  compatibility issue.
+                  The About Us page of your website is an essential source of information for all who want to know more about your business.
+
+About Us pages are where you showcase your history, what is unique about your work, your company’s values, and who you serve.There isn’t a winning template to create a great About Us page. However, there are key components to make a convincing pitch with your brand story.
                 </p>
               </div>
             </div>
@@ -162,7 +156,7 @@
     <!-- end of services section -->
 
     <!-- start download section -->
-    <section class="download">
+    <section class="download" id="download">
       <div class="container text-center py-5">
         <h1>Downlaod and start..!</h1>
         <div class="row">
@@ -197,11 +191,10 @@
     <!-- end contact section -->
 
     <!-- start link section -->
-    <section class="message py-5">
+    <section class="message py-5" id="important_link">
       <div class="container text-center">
         <h1>Important Links</h1>
 
-        
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -221,10 +214,7 @@
               <p>Instagram</p>
 
               <p>Google</p>
-              
-
             </div>
-           
           </div>
           <button class="btn btn-primary">Thanks</button>
         </div>
@@ -232,27 +222,33 @@
     </section>
     <!-- end link section -->
 
-
     <!-- start footer section -->
-    <section class="footer  bg-dark">
-        <div class="container py-5 text-white text-center">
-            <p>© 2022 Copyright: www.technosoft.com</p>
-
-        </div>
-
+    <section class="footer bg-dark">
+      <div class="container py-5 text-white text-center">
+        <p>© 2022 Copyright: www.technosoft.com</p>
+      </div>
     </section>
- 
 
+    <!-- end footer section -->
+    <!-- end of coding area -->
 
-            <!-- end footer section -->
-            <!-- end of coding area -->
-
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-            <script src="js/learn.js"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/learn.js"></script>
+  </body>
 </html>

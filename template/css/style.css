@@ -1,6 +1,11 @@
+/* #html {
+    scroll-behavior: smooth;
+    
+} */
+
 body {
     font-family: 'Arima', cursive;
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
 }
 
 .header {
@@ -36,3 +41,8 @@ body {
 .download {
     background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
 }
+
+
+/* html {
+    scroll-behavior: smooth;
+} */
